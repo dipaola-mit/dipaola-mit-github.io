@@ -1,6 +1,6 @@
 # al-folio
 
-<div align="center">
+<!-- <div align="center">
 
 [![Preview](readme_preview/al-folio-preview.png)](https://alshedivat.github.io/al-folio/)
 
@@ -486,7 +486,7 @@ Our most active contributors are welcome to join the maintainers team. If you ar
     <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=alshedivat/al-folio&type=Date" />
   </picture>
 </a>
-
+ -->
 ## License
 
 The theme is available as open source under the terms of the [MIT License](https://github.com/alshedivat/al-folio/blob/main/LICENSE).
