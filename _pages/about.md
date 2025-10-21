@@ -7,7 +7,7 @@ subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   more_info: >
     <p>555 your office number</p>
     <p>123 your address street</p>
@@ -27,8 +27,15 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+My research explores how young people interact with AI, how we can design curricula to support responsible AI use and creation, and how educational policy can guide the integration of AI into schools. I focus on
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+A central part of my work is curriculum design. I have created hands-on learning experiences that introduce K–12 students to the responsible use of AI. These programs have reached thousands of learners worldwide through initiatives like [Day of AI] (https://dayofai.org), [Project STEM] (https://projectstem.org/middle-school-cs2-demo/cse2-scope-and-sequence), [Edward M. Kennedy Institute] (https://emkinstitute.org/offerings-6-8/), and [Everyday AI] (https://everyday-ai.org/). Most recently, I have designed an after school program, [Student Voices in AI] (https://mitmedialab.github.io/student-voices-in-ai), which empowers students to take a leadership role in deciding how AI is used in their schools.
+
+I am currently a PhD Candidate at the [MIT Media Lab] () advised by [Professor Cynthia Breazeal](). I have a Bachelor's in Human Factors Engineering from Tufts University and a Master's in Media Arts and Sciences from MIT. Prior to my graduate work, I worked as a design researcher at Jibo, Inc., which was recognized as Time Magazine's Invention of the Year in 2017.
+
+I will be graduating in May 2026 and am seeking faculty or other academic roles. Please reach out if you'd like to connect!
+
+[]
+
 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
