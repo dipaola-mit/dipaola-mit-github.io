@@ -51,7 +51,7 @@ scholar_userid: qvpSQS8AAAAJ # your Google Scholar ID
 # youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 # zotero_username: # your zotero username
 media_lab:
-    logo: assets/img/MIT_ML.jpg
+    logo: assets/img/MIT_ML.png
     # title: MIT Media Lab 
     url: https://www.media.mit.edu/people/dipaola/overview/
 
