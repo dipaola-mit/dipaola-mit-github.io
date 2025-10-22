@@ -24,7 +24,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-My research explores how young people interact with AI, how we can design curricula to support responsible AI use and creation, and how educational policy can guide the integration of AI into schools. I focus on
+My research explores how young people interact with AI, how we can design curricula to support responsible AI use and creation, and how educational policy can guide the integration of AI into schools. 
 
 A central part of my work is curriculum design. I have created hands-on learning experiences that introduce K–12 students to the responsible use of AI. These programs have reached thousands of learners worldwide through initiatives like [Day of AI](https://dayofai.org), [Project STEM](https://projectstem.org/middle-school-cs2-demo/cse2-scope-and-sequence), [Edward M. Kennedy Institute](https://emkinstitute.org/offerings-6-8/), and [Everyday AI](https://everyday-ai.org/). Most recently, I have designed an after school program, [Student Voices in AI](https://mitmedialab.github.io/student-voices-in-ai), which empowers students to take a leadership role in deciding how AI is used in their schools.
 
