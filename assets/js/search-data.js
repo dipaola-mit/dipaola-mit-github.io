@@ -411,7 +411,7 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-daily-curriculum",
           title: 'DAILy Curriculum',
-          description: "a project with a background image and giscus comments",
+          description: "a hands-on middle school curriculum to introduce students to machine learning, generative AI, and ethics",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
             },},{id: "projects-project-3-with-very-long-name",
