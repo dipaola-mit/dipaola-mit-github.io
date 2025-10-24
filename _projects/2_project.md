@@ -1,7 +1,7 @@
 ---
 layout: page
 title: DAILy Curriculum
-description: a project with a background image and giscus comments
+description: a hands-on middle school curriculum to introduce students to machine learning, generative AI, and ethics
 img: assets/img/daily-curric.png
 importance: 2
 category: curricula
