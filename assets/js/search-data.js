@@ -9,12 +9,26 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-publications",
+  },{id: "nav-curricula",
+          title: "curricula",
+          description: "I design learning activities that address the intersection of artificial intelligence, ethics, and civics.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/curricula/";
+          },
+        },{id: "nav-publications",
           title: "publications",
           description: "publications by categories in reversed chronological order.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
+          },
+        },{id: "nav-cv",
+          title: "cv",
+          description: "T",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/cv/";
           },
         },{id: "post-a-post-with-plotly-js",
         
@@ -395,13 +409,8 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
+          section: "News",},{id: "projects-daily-curriculum",
+          title: 'DAILy Curriculum',
           description: "a project with a background image and giscus comments",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
@@ -440,6 +449,11 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "projects-student-voices-in-ai",
+          title: 'Student Voices in AI',
+          description: "an extracurricular club for middle and high school students to design AI policy in their schools",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/studentvoices/";
             },},{
         id: 'social-email',
         title: 'email',
