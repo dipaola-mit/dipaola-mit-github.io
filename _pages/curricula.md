@@ -2,7 +2,7 @@
 layout: page
 permalink: /curricula/
 title: curricula
-description: I design learning activities that address the intersection of artificial intelligence, ethics, and civics.
+description: I design learning activities that address the intersection of artificial intelligence and ethics. The lessons are designed to be hands-on and relevant to students' everyday lives. Most of the curricula is available free and open-source. 
 nav: true
 nav_order: 2
 display_categories: [curricula]
