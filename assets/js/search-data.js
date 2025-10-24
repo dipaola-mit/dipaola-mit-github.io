@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-curricula",
           title: "curricula",
-          description: "I design learning activities that address the intersection of artificial intelligence, ethics, and civics.",
+          description: "I design learning activities that address the intersection of artificial intelligence and ethics. The lessons are designed to be hands-on and relevant to students&#39; everyday lives. Most of the curricula is available free and open-source.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/curricula/";
@@ -409,17 +409,7 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-daily-curriculum",
-          title: 'DAILy Curriculum',
-          description: "a hands-on middle school curriculum to introduce students to machine learning, generative AI, and ethics",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
+          section: "News",},{id: "projects-project-4",
           title: 'project 4',
           description: "another without an image",
           section: "Projects",handler: () => {
@@ -449,6 +439,16 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "projects-chatgpt-in-schools",
+          title: 'ChatGPT in Schools',
+          description: "A short curriculum to introduce students to LLMs including how they work and how to think about their appropriate use.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/ChatGPTinSchools/";
+            },},{id: "projects-daily-curriculum",
+          title: 'DAILy Curriculum',
+          description: "a hands-on middle school curriculum to introduce students to machine learning, generative AI, and ethics",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/DAILy/";
             },},{id: "projects-student-voices-in-ai",
           title: 'Student Voices in AI',
           description: "an extracurricular club for middle and high school students to design AI policy in their schools",
