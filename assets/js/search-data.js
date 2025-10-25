@@ -444,8 +444,8 @@ ninja.data = [{
           description: "A short curriculum to introduce students to LLMs including how they work and how to think about their appropriate use.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/ChatGPTinSchools/";
-            },},{id: "projects-daily-curriculum",
-          title: 'DAILy Curriculum',
+            },},{id: "projects-developing-ai-literacy-daily",
+          title: 'Developing AI Literacy (DAILy)',
           description: "a hands-on middle school curriculum to introduce students to machine learning, generative AI, and ethics",
           section: "Projects",handler: () => {
               window.location.href = "/projects/DAILy/";
