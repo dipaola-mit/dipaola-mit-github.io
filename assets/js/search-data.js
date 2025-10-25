@@ -409,22 +409,7 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-7",
+          section: "News",},{id: "projects-project-7",
           title: 'project 7',
           description: "with background image",
           section: "Projects",handler: () => {
@@ -449,6 +434,21 @@ ninja.data = [{
           description: "a hands-on middle school curriculum to introduce students to machine learning, generative AI, and ethics",
           section: "Projects",handler: () => {
               window.location.href = "/projects/DAILy/";
+            },},{id: "projects-data-privacy-for-youth",
+          title: 'Data Privacy for Youth',
+          description: "Three hands-on activities about data privacy for K-9 students.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/DataPrivacyCurric/";
+            },},{id: "projects-projectstem-cse2",
+          title: 'ProjectSTEM CSE2',
+          description: "A 12-week middle-school course about AI",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/ProjectSTEM/";
+            },},{id: "projects-introduction-to-social-robotics",
+          title: 'Introduction to Social Robotics',
+          description: "Six middle school lessons on topics about social robots and ethics of robots.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/SocialRobotCurric/";
             },},{id: "projects-student-voices-in-ai",
           title: 'Student Voices in AI',
           description: "an extracurricular club for middle and high school students to design AI policy in their schools",
