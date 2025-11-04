@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Data Privacy for Youth
-description: Three hands-on activities about data privacy for K-9 students.
+description: three hands-on activities about data privacy for K-9 students
 img: assets/img/dataprivacy.jpg
 importance: 6
 category: curricula

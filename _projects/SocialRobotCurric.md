@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Introduction to Social Robotics
-description: Six middle school lessons on topics about social robots and ethics of robots.
+description: six middle school lessons on topics about social robots and ethics of robots
 img: assets/img/social-robots.png
 importance: 5
 category: curricula

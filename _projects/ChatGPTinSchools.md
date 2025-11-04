@@ -1,7 +1,7 @@
 ---
 layout: page
 title: ChatGPT in Schools
-description: A short curriculum to introduce students to LLMs including how they work and how to think about their appropriate use.
+description: a short curriculum to introduce students to LLMs including how they work and how to think about their appropriate use
 img: assets/img/chat-gpt.png
 importance: 3
 category: curricula

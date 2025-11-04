@@ -1,7 +1,7 @@
 ---
 layout: page
 title: ProjectSTEM CSE2
-description: A 12-week middle-school course about AI
+description: a 12-week middle-school course about AI
 img: assets/img/CSE2.png
 importance: 4
 category: curricula
