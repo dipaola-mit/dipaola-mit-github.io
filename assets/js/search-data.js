@@ -426,7 +426,7 @@ ninja.data = [{
               window.location.href = "/projects/9_project/";
             },},{id: "projects-chatgpt-in-schools",
           title: 'ChatGPT in Schools',
-          description: "A short curriculum to introduce students to LLMs including how they work and how to think about their appropriate use.",
+          description: "a short curriculum to introduce students to LLMs including how they work and how to think about their appropriate use",
           section: "Projects",handler: () => {
               window.location.href = "/projects/ChatGPTinSchools/";
             },},{id: "projects-developing-ai-literacy-daily",
@@ -436,17 +436,17 @@ ninja.data = [{
               window.location.href = "/projects/DAILy/";
             },},{id: "projects-data-privacy-for-youth",
           title: 'Data Privacy for Youth',
-          description: "Three hands-on activities about data privacy for K-9 students.",
+          description: "three hands-on activities about data privacy for K-9 students",
           section: "Projects",handler: () => {
               window.location.href = "/projects/DataPrivacyCurric/";
             },},{id: "projects-projectstem-cse2",
           title: 'ProjectSTEM CSE2',
-          description: "A 12-week middle-school course about AI",
+          description: "a 12-week middle-school course about AI",
           section: "Projects",handler: () => {
               window.location.href = "/projects/ProjectSTEM/";
             },},{id: "projects-introduction-to-social-robotics",
           title: 'Introduction to Social Robotics',
-          description: "Six middle school lessons on topics about social robots and ethics of robots.",
+          description: "six middle school lessons on topics about social robots and ethics of robots",
           section: "Projects",handler: () => {
               window.location.href = "/projects/SocialRobotCurric/";
             },},{id: "projects-student-voices-in-ai",
