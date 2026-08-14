@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: phd student, researcher, educator
+subtitle: AI + ethics + education expert, researcher, educator
 
 profile:
   align: right
@@ -24,9 +24,9 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-My research explores how young people interact with AI, how we can design curricula to support responsible AI use and creation, and how educational policy can guide the integration of AI into schools. 
+My research explores how young people interact with AI, how we can design curricula to support responsible AI use and creation, and how educational policy can guide the integration of AI into schools. I recently completed my PhD, "AI Literacy as Civic Literacy: Developing Youth as Responsible Citizens in a World with AI" at the MIT Media Lab, where I was advised by Professor Cynthia Breazeal.
 
 I have created hands-on learning experiences that introduce K–12 students to the responsible use of AI. These programs have reached thousands of learners worldwide through initiatives like [Day of AI](https://dayofai.org), [Project STEM](https://projectstem.org/middle-school-cs2-demo/cse2-scope-and-sequence), [Edward M. Kennedy Institute](https://emkinstitute.org/offerings-6-8/), and [Everyday AI](https://everyday-ai.org/). Most recently, I designed [Student Voices in AI](https://mitmedialab.github.io/student-voices-in-ai), a youth council model that gives students a formal role in shaping AI use in their schools.
 
 
-I am currently a PhD Candidate at the MIT Media Lab advised by Professor Cynthia Breazeal. I have a Bachelor's in Human Factors Engineering from Tufts University and a Master's in Media Arts and Sciences from MIT. Prior to my graduate work, I worked as a design researcher at Jibo, Inc., which was recognized as Time Magazine's Invention of the Year in 2017.
+I am currently a Postdoctoral Associate at the MIT Media Lab, and a Research Fellow in the Allen Lab for Democracy Renovation at the Harvard Ash Center for Democratic Governance and Innovation. I have a Bachelor's in Human Factors Engineering from Tufts University and a Master's in Media Arts and Sciences from MIT. Prior to my graduate work, I worked as a design researcher at Jibo, Inc., which was recognized as Time Magazine's Invention of the Year in 2017.
