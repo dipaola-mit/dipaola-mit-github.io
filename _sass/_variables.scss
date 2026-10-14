@@ -32,6 +32,27 @@ $grey-900: #212529;
 $white-color: #F9F8F4 !default;
 $black-color: #4D3417 !default;
 
+// Site palette (light mode)
+$palette-bg: #ffffff; // white
+$palette-text: #000000; // black
+$palette-text-muted: #595959; // secondary text (post dates, tags)
+$palette-rose: #b56576;
+$palette-link: #a1546a; // rose, deepened slightly so links are readable on white
+$palette-link-hover: #000000;
+$palette-footer: $palette-bg; // bottom bar matches the page
+$palette-footer-text: $palette-text;
+$palette-accent: $palette-rose; // back-to-top button
+$palette-divider: $palette-rose; // divider lines
+
+// Site palette (dark mode): same black, white, and dusty rose scheme, inverted
+$palette-dark-bg: #121212; // near-black
+$palette-dark-card: #1c1c1c;
+$palette-dark-text: #ffffff;
+$palette-dark-text-muted: #a6a6a6;
+$palette-dark-link: #d18c9c; // rose, lightened so links are readable on black
+$palette-dark-link-hover: #ffffff;
+$palette-dark-code-bg: #1c1c1c;
+
 // Theme colors
 
 $code-bg-color-light: rgba($green-color-lime, 0.05);

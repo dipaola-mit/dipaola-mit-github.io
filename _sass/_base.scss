@@ -745,7 +745,12 @@ footer.sticky-bottom {
           display: inline-block;
           background-color: var(--global-theme-color);
           margin-bottom: 0.5rem;
-          color: var(--global-card-bg-color) !important;
+          color: #000 !important;
+
+          // tabs are light pastels in both modes, so keep their labels black
+          div {
+            color: #000;
+          }
 
           a {
             color: white;
@@ -1422,4 +1427,9 @@ figure.cover {
   a.cover-link:hover {
     color: #23212d !important;
   }
+}
+
+// project card descriptions: MDB hardcodes a mid grey that is hard to read in dark mode
+.card .card-body .card-text {
+  color: var(--global-text-color-light);
 }

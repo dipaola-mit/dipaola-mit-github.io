@@ -11,7 +11,7 @@ layout: default
         {{ site.title }}
       {% endif %}
     </h1>
-    <p class="desc">{{ page.subtitle }}</p>
+    <h2 class="desc">{{ page.subtitle }}</h2>
   </header>
 
   <article>
@@ -57,12 +57,15 @@ layout: default
     {% endif %}
 
     <!-- Selected papers -->
+    {% comment %}
+      Hidden from the homepage. Remove this comment block to show it again.
     {% if page.selected_papers %}
       <h2>
         <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
       </h2>
       {% include selected_papers.liquid %}
     {% endif %}
+    {% endcomment %}
 
     <!-- Social -->
     {% if page.social %}
