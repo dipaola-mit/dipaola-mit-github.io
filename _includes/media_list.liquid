@@ -1,0 +1,15 @@
+{% assign icon_size = include.icon_size | default: 32 %}
+<ul class="list-unstyled">
+{% for item in include.items %}
+  <li class="mb-3 d-flex align-items-start">
+    {% if item.icon %}
+      <img src="{{ '/assets/img/media/' | append: item.icon | relative_url }}" alt="{{ item.venue | escape }}" width="{{ icon_size }}" height="{{ icon_size }}" class="rounded mr-3 mt-1 flex-shrink-0" style="background: #fff;" loading="lazy">
+    {% endif %}
+    <div>
+      <a href="{{ item.url }}"><strong>{{ item.title }}</strong></a><br>
+      <span class="small" style="color: var(--global-text-color-light);"><em>{{ item.venue }}</em>{% if item.date %} &middot; {{ item.date | date: "%B %Y" }}{% endif %}</span><br>
+      {{ item.description }}
+    </div>
+  </li>
+{% endfor %}
+</ul>

@@ -1,0 +1,142 @@
+# Entries for the media page (_pages/media.md). List newest first.
+#
+# talks:    youtube_id is the part after "v=" in a YouTube URL
+#           (e.g. https://www.youtube.com/watch?v=dQw4w9WgXcQ -> dQw4w9WgXcQ)
+# podcasts / press: url links out to the episode or article
+
+talks:
+  - title: A Virtue Ethics Approach to AI Literacy
+    venue: AHA Seminar, MIT Media Lab
+    date: 2026-10-09
+    youtube_id: cUuCJm6P9JI
+    description: A seminar for MIT Media Lab's Advancing Humans with AI program on grounding AI literacy in virtue ethics.
+
+  - title: Supporting AI Education in Out-of-School-Time Spaces
+    venue: National Girls Collaborative Project webinar
+    date: 2025-11-25
+    youtube_id: jbO0NHR8ppM
+    description: A webinar offering practical tools for preparing youth for an AI-driven world outside the classroom.
+
+  - title: Ethical Artificial Intelligence
+    venue: STEAMunity interview
+    date: 2024-01-12
+    youtube_id: F0vpOjvgbKE
+    description: An interview about my path through STEM, from engineering psychology to research on ethical AI at the MIT Media Lab.
+
+  - title: MIT Panel Discussion, Week of AI
+    venue: TeacherGoals
+    date: 2023-05-16
+    youtube_id: jZ40VpWNKUg
+    description: A live panel and Q&A with educators and ed-tech founders on ethics, bias, children's rights, and the future of AI in education.
+#  - title: Talk title
+#    venue: Event or host
+#    date: 2026-01-01
+#    youtube_id: XXXXXXXXXXX
+#    description: One-sentence summary.
+
+podcasts:
+  - title: Inside the MIT Report on How AI Is Eroding Campus Culture
+    venue: Learning Curve
+    icon: learningcurve.jpg
+    date: 2026-09-15
+    url: https://podcasts.apple.com/us/podcast/inside-the-mit-report-on-how-ai-is-eroding-campus-culture/id1832624538?i=1000789847832
+    description: A look at MIT's internal report on AI on campus, and my perspectives on fractured social learning as a student leader.
+
+  - title: Equity, Ethics, Engagement in AI
+    venue: Voices of 2 Blocks
+    icon: voicesof2blocks.jpg
+    date: 2024-03-21
+    url: https://podcasts.apple.com/us/podcast/equity-ethics-engagement-in-ai/id1613101194?i=1000649980371
+    description: A panel from the Design Redefined seminar series (Innovators for Purpose, MIT Museum, and MIT MAD) on inclusion as a driver of AI innovation and how to bring underrepresented groups into the field.
+
+  - title: Navigating the Intersection of AI and Education
+    venue: Voices of 2 Blocks
+    icon: voicesof2blocks.jpg
+    date: 2024-02-15
+    url: https://podcasts.apple.com/us/podcast/navigating-the-intersection-of-ai-and-education/id1613101194?i=1000645436646
+    description: A conversation about how AI is entering schools, why ethics, bias, and privacy need to shape it, and why it should complement rather than replace human mentorship.
+#  - title: Episode title
+#    venue: Podcast name
+#    date: 2026-01-01
+#    url: https://...
+#    description: One-sentence summary.
+
+# press is split into groups, each with an optional intro (markdown) and its own list of articles.
+# icon (optional) is a file in assets/img/media/ shown to the left of an item
+press:
+  - group: MIT's Ad Hoc Committee on AI Use in Teaching, Learning, and Research Training
+    intro: I served on this committee. Below is press coverage of [our report](https://aiandeducation.mit.edu/report/).
+    items:
+      - title: MIT Report Warns of AI "Cognitive Surrender"
+        venue: CNN
+        icon: cnn.png
+        date: 2026-09-17
+        url: https://www.cnn.com/2026/09/17/us/video/mit-report-ai-education-intv-ctw-091710aseg2-cnni-us-fast
+        description: CNN's Becky Anderson interviews committee co-chair Sam Madden about what the report's findings mean for AI in education.
+
+      - title: MIT Report Calls for AI-Aware Redesign of Higher Ed
+        venue: GovTech
+        icon: govtech.png
+        date: 2026-09-17
+        url: https://www.govtech.com/education/higher-ed/mit-report-calls-for-ai-aware-redesign-of-higher-ed
+        description: Coverage of our report's call for universities to rethink teaching, research, and campus life as generative AI reshapes learning.
+
+      - title: An MIT Report Warns AI Is Causing "Cognitive Surrender." Universities Are in a Bind.
+        venue: The New York Times
+        icon: nytimes.png
+        date: 2026-09-15
+        url: https://www.nytimes.com/2026/09/15/us/universities-ai-warnings-enthusiasm.html
+        description: How universities are caught between embracing AI and heeding warnings, like those in our report, that it is isolating students and creating an illusion of learning.
+
+      - title: MIT Says AI Is Forcing a Rethink of College Itself
+        venue: Forbes
+        icon: forbes.png
+        date: 2026-08-25
+        url: https://www.forbes.com/sites/ronschmelzer/2026/08/25/mit-says-ai-is-forcing-a-rethink-of-college-itself/
+        description: An overview of our recommendations, from redesigned assessments and course-level AI rules to renewed emphasis on hands-on learning.
+
+  - group: AI Literacy and Civic Literacy
+    items:
+      - title: Adults Have Struggled to Set Rules for AI in School. These Teens Figured It Out.
+        venue: NPR
+        icon: npr.png
+        date: 2026-07-30
+        url: https://www.npr.org/2026/07/30/nx-s1-5853571/students-set-ai-policy
+        description: About 100 teenagers come together to draft their own rules for AI in school, from homework and tests to who should teach AI literacy, in a simulation inspired by my work on youth voice and AI policy.
+
+      - title: Day of AI Curriculum Meets the Moment
+        venue: MIT News
+        icon: mitnews.png
+        date: 2023-06-26
+        url: https://news.mit.edu/2023/day-ai-curriculum-meets-moment-0626
+        description: MIT RAISE's second annual Day of AI, featuring a mock U.S. Senate simulation on AI and human rights that I co-designed with the Edward M. Kennedy Institute.
+
+      - title: Hey, Alexa, What Should Students Learn About A.I.?
+        venue: The New York Times
+        icon: nytimes.png
+        date: 2023-06-08
+        url: https://www.nytimes.com/2023/06/08/business/ai-literacy-schools-amazon-alexa.html
+        description: How tech companies, universities, and nonprofits are stepping in with free AI literacy lessons, including Day of AI's Alexa lesson at Dearborn STEM Academy.
+
+      - title: "'Day of AI' Spurs Classroom Discussions on Societal Impacts of Artificial Intelligence"
+        venue: Education Week
+        icon: edweek.png
+        date: 2023-05-19
+        url: https://www.edweek.org/technology/day-of-ai-spurs-classroom-discussions-on-societal-impacts-of-artificial-intelligence/2023/05
+        description: How the Day of AI curriculum I helped develop weaves ethical, social, and policy questions, anchored in the Blueprint for an AI Bill of Rights, into lessons on how AI works.
+
+      - title: Want Ethical AI? Hand the Keys to Middle Schoolers.
+        venue: Popular Science
+        icon: popsci.png
+        date: 2021-11-21
+        url: https://www.popsci.com/science/mit-camp-teaches-ethical-ai/
+        description: A look inside Everyday AI, a two-week curriculum I helped develop that teaches middle schoolers to spot the ethics and biases built into algorithms.
+
+  - group: Interviews on Current Events
+    items:
+      - title: Is Using AI Cheating? In Many Schools, Teachers Are Left to Figure It Out on Their Own.
+        venue: The Boston Globe
+        icon: bostonglobe.png
+        date: 2024-10-24
+        url: https://www.bostonglobe.com/2024/10/24/metro/ai-cheating-plagarism-education-k-12-schools-college/
+        description: On New England schools' slow response to AI, where Eric Klopfer and I argue that districts need clear policies before problems arise.
