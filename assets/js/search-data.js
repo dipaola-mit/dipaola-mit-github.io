@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-publications",
           title: "publications",
-          description: "publications by categories in reversed chronological order.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
@@ -29,6 +29,13 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
+          },
+        },{id: "nav-media",
+          title: "media",
+          description: "Talks, podcasts, and press coverage of my work.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/media/";
           },
         },{id: "post-a-post-with-plotly-js",
         
