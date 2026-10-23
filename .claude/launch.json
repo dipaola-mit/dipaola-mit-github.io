@@ -1,0 +1,14 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "jekyll",
+      "runtimeExecutable": "/bin/zsh",
+      "runtimeArgs": [
+        "-c",
+        "export LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 PATH=/opt/homebrew/opt/ruby/bin:$PATH BUNDLE_PATH=vendor/bundle && bundle exec jekyll serve --port 4000 --livereload --config _config.yml,/private/tmp/claude-501/-Users-danielladipaola-projects-dipaola-mit-github-io/d57b42f8-ab53-48e6-a5cb-dddeea19e906/scratchpad/_config.local.yml"
+      ],
+      "port": 4000
+    }
+  ]
+}
