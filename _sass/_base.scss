@@ -1440,3 +1440,40 @@ figure.cover {
   color: var(--global-text-color);
   font-weight: bold;
 }
+
+// Social icons under the profile photo on the about page
+
+.profile .social .contact-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 13rem;
+  margin: 0 auto 1rem;
+  padding: 0.25rem 0.5rem;
+  background-color: rgba(201, 173, 167, 0.6); // Ethics and Policy tag color from the publications page, at 60%
+  border-radius: 0.5rem;
+  font-size: 2.25rem;
+
+  a {
+    display: flex;
+    align-items: center;
+
+    // logo images have transparent padding, so size them up and pull the padding back in
+    img {
+      width: 3rem;
+      height: 3rem;
+      margin: -0.5rem;
+    }
+
+    svg {
+      width: 2rem;
+      height: 2.25rem;
+      margin-bottom: 0;
+
+      image {
+        width: 2rem;
+        height: 2rem;
+      }
+    }
+  }
+}
