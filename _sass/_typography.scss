@@ -16,9 +16,14 @@ h1,
 .post-title {
   font-family: $font-heading;
   font-weight: 700;
-  // 95px on desktop, scaling down on small screens so long titles fit
-  font-size: clamp(3rem, 10vw, 95px);
+  // 64px on desktop, scaling down on small screens so long titles fit
+  font-size: clamp(2.25rem, 7vw, 64px);
   line-height: 1.05;
+}
+
+// the tagline under the name on the homepage
+.site-name + .desc {
+  font-size: 26px;
 }
 
 h2 {

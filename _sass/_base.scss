@@ -1433,3 +1433,10 @@ figure.cover {
 .card .card-body .card-text {
   color: var(--global-text-color-light);
 }
+
+// Short/long bio toggle on the about page
+
+.bio-toggle a[aria-current] {
+  color: var(--global-text-color);
+  font-weight: bold;
+}
