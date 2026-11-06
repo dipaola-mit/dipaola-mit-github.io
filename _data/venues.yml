@@ -10,13 +10,17 @@
 
 
 "Ethics and Policy":
-  color: "#c9ada7"
+  color: "#f8e3e6"
+  text: "#8f2336"
 
 "Social Robotics":
-  color: "#b8a1b0"
+  color: "#eceaf3"
+  text: "#4c4770"
 
 "HCI":
-  color: "#d6b8a5"
+  color: "#ecefeb"
+  text: "#465347"
 
 "AI Literacy":
-  color: "#e8c5bd"
+  color: "#e4e8f1"
+  text: "#2f3e5e"

@@ -1,4 +1,6 @@
 ---
+# Hidden from the live site. Delete the next line (or set it to true) to bring this page back.
+published: false
 layout: page
 permalink: /publications/
 title: publications
@@ -22,7 +24,7 @@ topics:
 <div class="topic-filter mb-4" role="group" aria-label="Filter publications by topic">
   <button type="button" class="topic-btn active" data-topic="all" aria-pressed="true">All</button>
   {% for topic in page.topics %}
-    <button type="button" class="topic-btn" data-topic="{{ topic }}" aria-pressed="false" style="background-color: {{ site.data.venues[topic].color }};">{{ topic }}</button>
+    <button type="button" class="topic-btn" data-topic="{{ topic }}" aria-pressed="false" style="background-color: {{ site.data.venues[topic].color }}; color: {{ site.data.venues[topic].text }};">{{ topic }}</button>
   {% endfor %}
 </div>
 
@@ -35,16 +37,16 @@ topics:
 <style>
   .topic-filter { display: flex; flex-wrap: wrap; gap: 8px; }
   .topic-btn {
-    border: 2px solid transparent;
+    border: 1px solid transparent;
     border-radius: 999px;
     padding: 4px 14px;
     font-size: 14px;
-    color: #000;
+    font-weight: 500;
     background-color: transparent;
     cursor: pointer;
   }
   .topic-btn[data-topic="all"] { color: var(--global-text-color); border-color: var(--global-divider-color); }
-  .topic-btn.active { border-color: var(--global-text-color); }
+  .topic-btn.active { background-color: var(--global-theme-color) !important; border-color: var(--global-theme-color); color: #fff !important; }
 </style>
 
 <script>

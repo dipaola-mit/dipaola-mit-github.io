@@ -245,9 +245,7 @@ ul.task-list input[type="checkbox"] {
 
 .navbar {
   box-shadow: none;
-  border-bottom: 1px solid var(--global-divider-color);
   background-color: var(--global-bg-color);
-  opacity: 0.95;
 }
 
 .navbar .dropdown-menu {
@@ -498,6 +496,7 @@ footer.sticky-bottom {
   padding-top: 40px;
   padding-bottom: 40px;
   font-size: 0.9rem;
+  color: var(--global-footer-text-color);
 
   .container {
     text-align: center;
@@ -689,12 +688,10 @@ footer.sticky-bottom {
   }
 
   h2.category {
-    color: var(--global-divider-color);
-    border-bottom: 1px solid var(--global-divider-color);
+    color: var(--global-text-color-light);
     padding-top: 0.5rem;
     margin-top: 2rem;
     margin-bottom: 1rem;
-    text-align: right;
   }
 }
 
@@ -720,11 +717,9 @@ footer.sticky-bottom {
   }
 
   h2.bibliography {
-    color: var(--global-divider-color);
-    border-top: 1px solid var(--global-divider-color);
-    padding-top: 1rem;
     margin-top: 2rem;
-    text-align: right;
+    font-size: 1rem;
+    color: var(--global-text-color-light);
   }
 
   ol.bibliography {
@@ -732,8 +727,22 @@ footer.sticky-bottom {
     padding: 0;
     margin-top: 0;
 
+    > li {
+      padding: 1rem 0;
+      border-top: 1px solid var(--global-divider-color);
+    }
+
     li {
-      margin-bottom: 1rem;
+      // stack the topic tag above the entry, with the entry at a readable width
+      > .row {
+        flex-direction: column;
+
+        > [class*="col"] {
+          flex: none;
+          width: 100%;
+          max-width: 46rem;
+        }
+      }
 
       .preview {
       }
@@ -743,13 +752,18 @@ footer.sticky-bottom {
 
         abbr {
           display: inline-block;
+          width: auto !important;
+          padding: 0.2rem 0.6rem;
           background-color: var(--global-theme-color);
-          margin-bottom: 0.5rem;
-          color: #000 !important;
+          border-radius: 999px !important;
+          box-shadow: none;
+          margin-bottom: 0;
+          font-size: 0.75rem;
+          font-weight: 500;
+          color: #fff;
 
-          // tabs are light pastels in both modes, so keep their labels black
           div {
-            color: #000;
+            color: inherit;
           }
 
           a {
@@ -768,7 +782,13 @@ footer.sticky-bottom {
       }
 
       .title {
-        font-weight: bolder;
+        font-weight: 600;
+      }
+
+      .author,
+      .periodical {
+        font-size: 0.9rem;
+        color: var(--global-text-color-light);
       }
 
       .author {
@@ -1434,11 +1454,121 @@ figure.cover {
   color: var(--global-text-color-light);
 }
 
-// Short/long bio toggle on the about page
+// About page
+
+@media (min-width: 576px) {
+  .about-page .profile {
+    width: 220px;
+    margin-bottom: 1rem;
+  }
+}
+
+// on phones, sit a small photo beside the name so the bio stays near the top
+@media (max-width: 575.98px) {
+  .about-page {
+    display: grid;
+    grid-template-columns: 72px minmax(0, 1fr);
+    column-gap: 12px;
+
+    .post-header,
+    article,
+    .profile {
+      display: contents;
+    }
+
+    .post-title {
+      grid-area: 1 / 2;
+      align-self: center;
+      margin: 0;
+    }
+
+    figure {
+      grid-area: 1 / 1;
+      margin: 0;
+    }
+
+    .desc,
+    article > * {
+      grid-column: 1 / -1;
+    }
+
+    .desc {
+      margin: 0.75rem 0 1rem;
+      font-size: 17px;
+    }
+
+    .social {
+      grid-column: 1 / -1;
+      grid-row: 4;
+    }
+
+    .contact-icons {
+      margin: 0 0 1rem !important;
+    }
+  }
+}
 
 .bio-toggle a[aria-current] {
   color: var(--global-text-color);
-  font-weight: bold;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.home-links {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 18rem));
+  gap: 1rem;
+  margin-top: 2rem;
+
+  a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 1rem 1.25rem;
+    font-weight: 600;
+    line-height: 1.35;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 0.5rem;
+    transition: border-color 0.2s ease-in-out;
+
+    &:hover {
+      border-color: var(--global-hover-color);
+      text-decoration: none;
+    }
+  }
+
+  i {
+    flex-shrink: 0;
+    font-size: 1.25rem;
+  }
+}
+
+.home-news {
+  margin-top: 2.5rem;
+
+  dl {
+    margin: 0;
+  }
+
+  dl > div {
+    display: grid;
+    grid-template-columns: 5.5rem minmax(0, 1fr);
+    column-gap: 1rem;
+    padding: 0.75rem 0;
+    border-top: 1px solid var(--global-divider-color);
+  }
+
+  dt {
+    font-weight: 400;
+    color: var(--global-text-color-light);
+    white-space: nowrap;
+  }
+
+  dd,
+  dd p {
+    margin: 0;
+  }
 }
 
 // Social icons under the profile photo on the about page
@@ -1447,11 +1577,8 @@ figure.cover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 13rem;
+  max-width: 12rem;
   margin: 0 auto 1rem;
-  padding: 0.25rem 0.5rem;
-  background-color: rgba(201, 173, 167, 0.6); // Ethics and Policy tag color from the publications page, at 60%
-  border-radius: 0.5rem;
   font-size: 2.25rem;
 
   a {
@@ -1475,5 +1602,123 @@ figure.cover {
         height: 2rem;
       }
     }
+  }
+}
+
+// Research page
+
+.research-areas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.research-area {
+  padding: 0.25rem 0.875rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--tag-text);
+  cursor: pointer;
+  background-color: var(--tag-color);
+  border: 1px solid transparent;
+  border-radius: 999px;
+
+  &:hover {
+    border-color: var(--tag-text);
+  }
+
+  &[aria-pressed="true"] {
+    color: #fff;
+    background-color: var(--tag-text);
+  }
+}
+
+.research-theme h2 {
+  margin-bottom: 1rem;
+}
+
+.research-questions {
+  margin-bottom: 2rem;
+  padding-left: 1.25rem;
+
+  li {
+    margin-bottom: 0.5rem;
+  }
+}
+
+// Reveal animation, turned off for now. To bring it back, uncomment this block.
+// The --i values it uses are already set in _pages/research.md.
+// Showing an area restarts these, because they go from hidden to visible
+//
+// @keyframes research-reveal {
+//   from {
+//     opacity: 0;
+//     transform: translateY(-0.75rem);
+//   }
+// }
+//
+// .research-questions li {
+//   animation: research-reveal 0.4s ease-out both;
+//   animation-delay: calc(var(--i) * 0.15s);
+// }
+//
+// .research-grid > .col {
+//   animation: research-reveal 0.4s ease-out both;
+//   animation-delay: calc(0.3s + var(--i) * 0.07s);
+// }
+//
+// @media (prefers-reduced-motion: reduce) {
+//   .research-questions li,
+//   .research-grid > .col {
+//     animation: none;
+//   }
+// }
+
+.research-card {
+  figure {
+    margin: 0;
+  }
+
+  .card-img-top,
+  .research-photo-placeholder {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+  }
+
+  .research-photo-placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    color: var(--global-text-color-light);
+    background-color: rgba(201, 173, 167, 0.3);
+  }
+
+  .research-tag {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    padding: 0.125rem 0.5rem;
+    font-size: 0.6875rem;
+    font-weight: 500;
+    border-radius: 999px;
+  }
+
+  .card-body .card-title {
+    font-family: inherit;
+    font-size: 0.9375rem;
+    font-weight: 700;
+  }
+
+  .card-body .card-text {
+    font-size: 0.8125rem;
+    line-height: 1.5;
+  }
+
+  .research-links {
+    margin-bottom: 0;
+    font-size: 0.8125rem;
+    line-height: 1.5;
   }
 }

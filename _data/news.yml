@@ -1,0 +1,14 @@
+# Entries for the news list on the homepage (_layouts/about.liquid). List newest first.
+# Only the month and year are shown. Text can include Markdown links.
+
+- date: 2026-10-09
+  text: 'Gave a seminar on [a virtue ethics approach to AI literacy](https://www.youtube.com/watch?v=cUuCJm6P9JI) for the MIT Media Lab''s Advancing Humans with AI program.'
+
+- date: 2026-09-15
+  text: 'Discussed the MIT report on AI on campus on the [Learning Curve podcast](https://podcasts.apple.com/us/podcast/inside-the-mit-report-on-how-ai-is-eroding-campus-culture/id1832624538?i=1000789847832).'
+
+- date: 2026-09-01
+  text: 'Began as a Research Fellow in the [Allen Lab for Democracy Renovation](https://ash.harvard.edu/programs/allen-lab-for-democracy-renovation/) at the Harvard Ash Center and the [Democratic Knowledge Project](https://www.democraticknowledgeproject.org/) at the Harvard Graduate School of Education.'
+
+- date: 2026-08-01
+  text: 'The [report](https://aiandeducation.mit.edu/report/) from MIT''s Ad Hoc Committee on AI Use in Teaching, Learning, and Research Training, on which I served, was released and covered by [CNN](https://www.cnn.com/2026/09/17/us/video/mit-report-ai-education-intv-ctw-091710aseg2-cnni-us-fast) and other outlets.'

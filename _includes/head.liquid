@@ -82,6 +82,11 @@
   <script>
     initTheme();
   </script>
+{% else %}
+  <script>
+    // Other scripts (search, tables) ask for the current theme, which is always light here
+    let determineComputedTheme = () => "light";
+  </script>
 {% endif %}
 
 {% if page.map %}

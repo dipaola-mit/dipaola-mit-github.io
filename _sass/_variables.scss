@@ -33,16 +33,18 @@ $white-color: #F9F8F4 !default;
 $black-color: #4D3417 !default;
 
 // Site palette (light mode)
-$palette-bg: #ffffff; // white
-$palette-text: #000000; // black
-$palette-text-muted: #595959; // secondary text (post dates, tags)
-$palette-rose: #b56576;
-$palette-link: #a1546a; // rose, deepened slightly so links are readable on white
-$palette-link-hover: #000000;
+$palette-bg: #fafafa; // off-white
+$palette-text: #1b2130; // navy-tinted near-black
+$palette-text-muted: #5a6172; // secondary text (post dates, tags)
+$palette-rose: #b56576; // dark mode only
+$palette-primary: #a61e60; // magenta
+$palette-secondary: #7a1547; // deep magenta
+$palette-link: $palette-primary;
+$palette-link-hover: $palette-secondary;
 $palette-footer: $palette-bg; // bottom bar matches the page
-$palette-footer-text: $palette-text;
-$palette-accent: $palette-rose; // back-to-top button
-$palette-divider: $palette-rose; // divider lines
+$palette-footer-text: $palette-text-muted;
+$palette-accent: $palette-secondary; // back-to-top button
+$palette-divider: #e6e7ea; // divider lines
 
 // Site palette (dark mode): same black, white, and dusty rose scheme, inverted
 $palette-dark-bg: #121212; // near-black

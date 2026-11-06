@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<div class="post">
+<div class="post about-page">
   <header class="post-header">
     <h1 class="post-title site-name">
       {% if site.title == 'blank' %}
@@ -65,16 +65,34 @@ layout: default
       {% include latest_posts.liquid %}
     {% endif %}
 
-    <!-- Selected papers -->
-    {% comment %}
-      Hidden from the homepage. Remove this comment block to show it again.
-    {% if page.selected_papers %}
-      <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
-      </h2>
-      {% include selected_papers.liquid %}
+    <!-- Links to main pages -->
+    <nav class="home-links" aria-label="Explore">
+      <a href="{{ '/research/' | relative_url }}">
+        <span>Explore my research</span>
+        <i class="ti ti-arrow-right" aria-hidden="true"></i>
+      </a>
+      {% comment %} Curricula page is hidden for now; restore this link along with published: false in _pages/curricula.md
+      <a href="{{ '/curricula/' | relative_url }}">
+        <span>Open access materials for schools and educators</span>
+        <i class="ti ti-arrow-right" aria-hidden="true"></i>
+      </a>
+      {% endcomment %}
+    </nav>
+
+    <!-- News list -->
+    {% if site.data.news %}
+      <section class="home-news">
+        <h2>News</h2>
+        <dl>
+          {% for item in site.data.news %}
+            <div>
+              <dt>{{ item.date | date: '%b %Y' }}</dt>
+              <dd>{{ item.text | markdownify }}</dd>
+            </div>
+          {% endfor %}
+        </dl>
+      </section>
     {% endif %}
-    {% endcomment %}
 
     {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
       {% include newsletter.liquid center=true %}

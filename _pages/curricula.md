@@ -1,10 +1,12 @@
 ---
+# Hidden from the live site. Delete the next line (or set it to true) to bring this page back.
+published: false
 layout: page
 permalink: /curricula/
 title: curricula
 description: I design learning activities that address the intersection of artificial intelligence and ethics. The lessons are designed to be hands-on and relevant to students' everyday lives. Most of the curricula is available free and open-source. 
 nav: true
-nav_order: 2
+nav_order: 3
 display_categories: [curricula]
 ---
 
@@ -13,9 +15,6 @@ display_categories: [curricula]
 {% if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
   {% for category in page.display_categories %}
-  <a id="{{ category }}" href=".#{{ category }}">
-    <h2 class="category">{{ category }}</h2>
-  </a>
   {% assign categorized_projects = site.projects | where: "category", category %}
   {% assign sorted_projects = categorized_projects | sort: "importance" %}
   <!-- Generate cards for each project -->

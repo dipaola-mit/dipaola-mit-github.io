@@ -1,0 +1,151 @@
+# Content for the research page (_pages/research.md).
+#
+# Each area has a title and a venue (the _data/venues.yml entry that sets its tag colors).
+# To show key research questions when an area is selected, add a `questions:` list to it.
+#
+# Projects appear on the page in the order listed here, so keep the newest first.
+# Each project has:
+#   name:    the project name
+#   area:    the title of the area it belongs to
+#   tagline: one short line about the project
+#   image:   a file in assets/img/, e.g. my_project.jpg (leave blank for a placeholder)
+#   links:   any number of label + url pairs, e.g. Publication, Live site
+
+areas:
+  - title: AI literacy
+    venue: AI Literacy
+  - title: Ethics and policy
+    venue: Ethics and Policy
+  - title: Human-AI interaction
+    venue: HCI
+
+projects:
+  - name: AI Guidance and Policy in K-12 Schools
+    area: Ethics and policy
+    tagline: Reimagining technology policy in schools, from rigid rules to flexible approaches grounded in shared values
+    image: ai-guidance-k12.jpg
+    links:
+      - label: Project page
+        url: https://www.media.mit.edu/projects/ai-guidance-in-k-12-schools/overview/
+  - name: Student Voices in AI
+    area: AI literacy
+    tagline: An extracurricular club for middle and high school students to design AI policy in their schools
+    image: student-voices.png
+    links:
+      - label: Access the Materials
+        url: https://dayofai.org/units/student-voices-in-ai
+  - name: Orbiting the VirtueVerse
+    area: AI literacy
+    tagline: A game for practicing and reflecting on AI ethics
+    image: virtueverse.png
+    links:
+      - label: Publication
+        url: https://dl.acm.org/doi/10.1145/3773077.3806143
+      - label: Play the game
+        url: https://mitmedialab.github.io/orbiting-the-virtueverse/
+  - name: Technology Policy Design Toolkit
+    area: Ethics and policy
+    tagline: A design toolkit to support collaborations in robot policymaking
+    image: robot-policy-toolkit.png
+    links:
+      - label: Publication
+        url: https://dl.acm.org/doi/10.1145/3772318.3791100
+      - label: Use the toolkit
+        url: https://mitmedialab.github.io/tpdt/
+  - name: MIT PATH
+    area: AI literacy
+    tagline: Curriculum lead on the Media Literacy in the Age of AI course
+    image: mit-path.png
+    links:
+      - label: Visit MIT PATH
+        url: https://path.mit.edu/
+  - name: AI and Elections Mini-Curriculum
+    area: AI literacy
+    tagline: Students take a deep look at how AI is affecting elections around the globe
+    image: ai-elections.jpg
+    links:
+      - label: Access the Materials
+        url: https://dayofai.org/units/ai-and-elections
+  - name: Project STEM CSE2
+    area: AI literacy
+    tagline: A 12-week middle school course about AI
+    image: CSE2.png
+    links:
+      - label: Access the Materials
+        url: https://projectstem.org/middle-school-cs2-demo/cse2-scope-and-sequence
+  - name: Human Rights in AI
+    area: AI literacy
+    tagline: Students explore how AI impacts fundamental human rights, privacy, safety, and equality through real-world cases and student-led action projects
+    image: human-rights-ai.png
+    links:
+      - label: Publication
+        url: https://firstmonday.org/ojs/index.php/fm/article/view/13869
+      - label: Access the Materials
+        url: https://dayofai.org/units/human-rights-and-artificial-intelligence
+  - name: AI in K-12 Policy Brief
+    area: Ethics and policy
+    tagline: Lead author on this policy brief as part of a series of AI policy briefs from MIT
+    image: ai-k12-brief.jpg
+    links:
+      - label: Read the brief
+        url: https://raise.mit.edu/wp-content/uploads/2025/08/AI-K-12_final-V3.pdf
+  - name: Socio-Digital Vulnerability
+    area: Ethics and policy
+    tagline: A theory of how social technologies leave people susceptible to decisional, social, or constitutive interference
+    image: socio-digital-vulnerability.jpg
+    links:
+      - label: Publication
+        url: https://doi.org/10.2139/ssrn.4686874
+  - name: Make-a-Thon for Middle School Educators
+    area: AI literacy
+    tagline: A workshop where educators explored new AI concepts and designed their own lesson plans
+    image: makeathon.jpg
+    links:
+      - label: Publication
+        url: https://dl.acm.org/doi/10.1145/3545945.3569743
+      - label: NSF ITEST Report by STELAR
+        url: https://stelar.edc.org/publications/co-designing-stem-innovations-nsf-itest-program
+  - name: "Children's Fundamental Rights in Human-Robot Interaction Research: A Systematic Review"
+    area: Human-AI interaction
+    tagline: A systematic review of children's fundamental rights in human-robot interaction research
+    image: childrens-rights.png
+    links:
+      - label: Publication
+        url: https://dl.acm.org/doi/10.1145/3568294.3580148
+  - name: Robot Advertising with Kids
+    area: Human-AI interaction
+    tagline: Engaging 62 children ages 9-12 in designing future policies for advertising on social robots
+    image: robot-advertising.jpg
+    links:
+      - label: Publication
+        url: https://www.media.mit.edu/publications/childrens-perspectives-of-advertising-with-social-robots-a-policy-investigation/
+  - name: Developing AI Literacy (DAILy)
+    area: AI literacy
+    tagline: A hands-on middle school curriculum introducing machine learning, generative AI, and ethics
+    image: daily-curric.png
+    links:
+      - label: Publication
+        url: https://dl.acm.org/doi/10.1145/3408877.3432513
+  - name: Introduction to Social Robotics
+    area: AI literacy
+    tagline: Six middle school lessons on topics about social robots and ethics of robots
+    image: social-robots-card.jpg
+    links:
+      - label: Access the Materials
+        url: https://docs.google.com/document/d/1shtnWVERELr52tqcNhvhzmxVql6fQDKc2wFvt_PJh5Q/edit?usp=sharing
+  - name: Data Privacy for Youth
+    area: AI literacy
+    tagline: Three hands-on activities about data privacy for K-9 students
+    image: dataprivacy.jpg
+    links:
+      - label: Access the Materials
+        url: https://docs.google.com/document/d/17x1vwEAS-NT5OoFjaxwPliUrmhrt2LChN0xtWntRr68/edit?usp=sharing
+      - label: Blog post
+        url: https://www.media.mit.edu/posts/family-friendly-data-privacy-ai-activities-interactive-lessons-to-help-kids-learn-and-design-with-data-privacy-in-mind/
+  - name: Social Robots as Social Catalysts
+    area: Human-AI interaction
+    tagline: Promoting social connectedness among older adults living with social robots in long-term communities
+    image: social-catalysts.jpg
+    links:
+      - label: Publication
+        url: https://www.media.mit.edu/publications/older-adults-living-with-social-robots-promoting-social-connectedness-in-long-term-communities/

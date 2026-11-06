@@ -1,39 +1,58 @@
 /*******************************************************************************
- * Site typography: Bodoni Moda headings, Montserrat body text.
+ * Site typography: Inter for headings and body text.
  * Fonts are loaded from Google Fonts (third_party_libraries.google_fonts in _config.yml).
  ******************************************************************************/
 
-$font-heading: "Bodoni Moda", "Bodoni 72", Didot, serif;
-$font-body: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+$font-heading: "Inter", "Helvetica Neue", Arial, sans-serif;
+$font-body: "Inter", "Helvetica Neue", Arial, sans-serif;
 
 body {
   font-family: $font-body;
   font-size: 16px;
-  font-weight: 400; // the theme defaults to 300, which Montserrat isn't loaded in
+  font-weight: 400; // the theme defaults to 300, which Inter isn't loaded in
+  line-height: 1.6;
 }
 
 h1,
 .post-title {
   font-family: $font-heading;
-  font-weight: 700;
-  // 64px on desktop, scaling down on small screens so long titles fit
-  font-size: clamp(2.25rem, 7vw, 64px);
-  line-height: 1.05;
+  font-weight: 600;
+  // 40px on desktop, scaling down on small screens so long titles fit
+  font-size: clamp(2rem, 6vw, 40px);
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+}
+
+// the name on the homepage
+.site-name {
+  font-size: clamp(1.75rem, 7vw, 48px);
 }
 
 // the tagline under the name on the homepage
 .site-name + .desc {
-  font-size: 26px;
+  margin-bottom: 1.5rem;
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  color: var(--global-text-color-light);
 }
 
 h2 {
   font-family: $font-heading;
-  font-style: italic;
-  font-weight: 400;
-  font-size: 32px;
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: -0.01em;
 }
 
-// separate the bottom bar from the page now that they share a background
-footer.fixed-bottom {
-  border-top: 1px solid var(--global-divider-color);
+.card .card-body h2.card-title {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+// underline links in running text so they stand apart from the near-black body color
+article p a {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
 }
