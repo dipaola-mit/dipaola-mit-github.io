@@ -9,19 +9,12 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-curricula",
-          title: "curricula",
-          description: "I design learning activities that address the intersection of artificial intelligence and ethics. The lessons are designed to be hands-on and relevant to students&#39; everyday lives. Most of the curricula is available free and open-source.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/curricula/";
-          },
-        },{id: "nav-publications",
-          title: "publications",
+  },{id: "nav-research",
+          title: "research",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/publications/";
+            window.location.href = "/research/";
           },
         },{id: "nav-media",
           title: "media",
@@ -489,30 +482,4 @@ ninja.data = [{
         handler: () => {
           window.open("https://www.media.mit.edu/people/dipaola/overview/", "_blank");
         },
-      },{
-      id: 'light-theme',
-      title: 'Change theme to light',
-      description: 'Change the theme of the site to Light',
-      section: 'Theme',
-      handler: () => {
-        setThemeSetting("light");
-      },
-    },
-    {
-      id: 'dark-theme',
-      title: 'Change theme to dark',
-      description: 'Change the theme of the site to Dark',
-      section: 'Theme',
-      handler: () => {
-        setThemeSetting("dark");
-      },
-    },
-    {
-      id: 'system-theme',
-      title: 'Use system default theme',
-      description: 'Change the theme of the site to System Default',
-      section: 'Theme',
-      handler: () => {
-        setThemeSetting("system");
-      },
-    },];
+      },];
