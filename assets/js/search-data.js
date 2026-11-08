@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-media",
           title: "media",
-          description: "Talks, podcasts, and press coverage of my work.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/media/";
