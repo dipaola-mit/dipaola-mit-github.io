@@ -2,7 +2,6 @@
 layout: page
 permalink: /media/
 title: media
-description: Talks, podcasts, and press coverage of my work.
 nav: true
 nav_order: 4
 ---
